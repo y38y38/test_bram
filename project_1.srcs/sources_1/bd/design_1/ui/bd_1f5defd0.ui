@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-336,-521",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 4 -x 1380 -y 280 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -x 950 -y 300 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 2 -x 550 -y 80 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 6 -x 2200 -y 270 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 5 -x 1870 -y 350 -defaultsOSRD
+preplace inst myip_0 -pg 1 -lvl 1 -x 130 -y -190 -defaultsOSRD
+preplace inst signal_controller_0 -pg 1 -lvl 2 -x 550 -y -180 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 -40 -290 320 -10 N -10 1080 180 1690 240 2050
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 4 1 1680 290n
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 0 6 -80 -300 340 160 NJ 160 NJ 160 NJ 160 2060
+preplace netloc myip_0_START 1 1 1 330 -210n
+preplace netloc myip_0_INPUT_ADDRESS 1 1 1 310 -190n
+preplace netloc myip_0_OUTPUT_ADDRESS 1 1 1 300 -170n
+preplace netloc signal_controller_0_ADDRB 1 2 1 820 -210n
+preplace netloc signal_controller_0_CLKB 1 2 1 810 -190n
+preplace netloc signal_controller_0_DINB 1 2 1 800 -170n
+preplace netloc blk_mem_gen_0_doutb 1 1 2 350 320 N
+preplace netloc signal_controller_0_ENB 1 2 1 780 -150n
+preplace netloc signal_controller_0_RSTB 1 2 1 770 -130n
+preplace netloc signal_controller_0_WEB 1 2 1 760 -110n
+preplace netloc signal_controller_0_STATUS 1 0 3 -60 -40 NJ -40 750
+preplace netloc signal_controller_0_STATUS2 1 0 3 -50 -30 NJ -30 740
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 2 1 790 80n
+preplace netloc axi_smc_M01_AXI 1 0 7 -70 -50 NJ -50 NJ -50 NJ -50 NJ -50 NJ -50 2350
+preplace netloc axi_smc_M00_AXI 1 1 6 360 0 NJ 0 NJ 0 NJ 0 NJ 0 2340
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 4 2 NJ 250 N
+levelinfo -pg 1 -100 130 550 950 1380 1870 2200 2370
+pagesize -pg 1 -db -bbox -sgen -100 -310 2370 510
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

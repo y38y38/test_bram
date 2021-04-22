@@ -1,0 +1,79 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (lin64) Build 3118627 Tue Feb  9 05:13:49 MST 2021
+| Date         : Thu Apr 22 17:10:04 2021
+| Host         : y-Bl running 64-bit Ubuntu 20.10
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-i
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_myip_0_0 from user.org:user:myip:1.0 (Rev. 3) to user.org:user:myip:1.1 (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (lin64) Build 3118627 Tue Feb  9 05:13:49 MST 2021
+| Date         : Thu Apr 22 17:05:32 2021
+| Host         : y-Bl running 64-bit Ubuntu 20.10
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-i
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_myip_0_0 (user.org:user:myip:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (lin64) Build 3118627 Tue Feb  9 05:13:49 MST 2021
+| Date         : Wed Apr 21 23:36:34 2021
+| Host         : y-Bl running 64-bit Ubuntu 20.10
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-i
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_signal_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_signal_controller_0_0 (xilinx.com:module_ref:signal_controller:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (lin64) Build 3118627 Tue Feb  9 05:13:49 MST 2021
+| Date         : Wed Apr 21 20:58:18 2021
+| Host         : y-Bl running 64-bit Ubuntu 20.10
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-i
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myip_0_0 (user.org:user:myip:1.0 (Rev. 2)) to Vivado generation flows.
+

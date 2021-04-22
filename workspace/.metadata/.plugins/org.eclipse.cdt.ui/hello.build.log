@@ -1,0 +1,42 @@
+22:30:30 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/y/fpga/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:60:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   60 |         sleep(1);
+      |         ^~~~~
+../src/helloworld.c:64:21: warning: initialization of 'uint32_t *' {aka 'unsigned int *'} from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   64 |     uint32_t *ptr = 0xa0000000;
+      |                     ^~~~~~~~~~
+../src/helloworld.c:68:28: warning: initialization of 'uint32_t *' {aka 'unsigned int *'} from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   68 |     uint32_t *controller = 0xa0010000;
+      |                            ^~~~~~~~~~
+../src/helloworld.c:77:9: warning: assignment to 'uint32_t *' {aka 'unsigned int *'} from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   77 |     ptr = 0xa0000010;
+      |         ^
+../src/helloworld.c:79:9: warning: assignment to 'uint32_t *' {aka 'unsigned int *'} from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   79 |     ptr = 0xa0000000;
+      |         ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/y/fpga/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hello.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/y/fpga/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "hello.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33628	   2048	  20684	  56360	   dc28	hello.elf
+Finished building: hello.elf.size
+ 
+
+22:30:31 Build Finished (took 571ms)
+

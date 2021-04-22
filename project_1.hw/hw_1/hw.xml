@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2020.2.2 (64-bit)                   -->
+<!--                                                              -->
+<!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xczu3_0" gui_info="dashboard1=hw_ila_1[xczu3_0/hw_ila_1/Waveform=ILA_WAVE_1;xczu3_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xczu3_0/hw_ila_1/Status=ILA_STATUS_1;xczu3_0/hw_ila_1/Settings=ILA_SETTINGS_1;xczu3_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xczu3_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.DATA_DEPTH" value="8192"/>
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CONTROL.TRIGGER_POSITION" value="4095"/>
+      <Properties Property="CONTROL.WINDOW_COUNT" value="1"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/myip_0_START" gui_info=""/>
+    <Object name="design_1_i/signal_controller_0_WEB[3:0]" gui_info="Trigger Setup=0"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/blk_mem_gen_0_doutb[31]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[30]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[29]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[28]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[27]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[26]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[25]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[24]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[23]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[22]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[21]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[20]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[19]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[18]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[17]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[16]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[15]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[14]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[13]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[12]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[11]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[10]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[9]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[8]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[7]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[6]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[5]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[4]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[3]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[2]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[1]"/>
+        <net name="design_1_i/blk_mem_gen_0_doutb[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe6[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/myip_0_START"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe7[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/rst_ps8_0_100M_peripheral_aresetn"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe6[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/ADDRB[31]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[30]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[29]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[28]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[27]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[26]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[25]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[24]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[23]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[22]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[21]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[20]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[19]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[18]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[17]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[16]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[15]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[14]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[13]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[12]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[11]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[10]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[9]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[8]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[7]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[6]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[5]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[4]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[3]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[2]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[1]"/>
+        <net name="design_1_i/signal_controller_0/ADDRB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe5[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/DINB[31]"/>
+        <net name="design_1_i/signal_controller_0/DINB[30]"/>
+        <net name="design_1_i/signal_controller_0/DINB[29]"/>
+        <net name="design_1_i/signal_controller_0/DINB[28]"/>
+        <net name="design_1_i/signal_controller_0/DINB[27]"/>
+        <net name="design_1_i/signal_controller_0/DINB[26]"/>
+        <net name="design_1_i/signal_controller_0/DINB[25]"/>
+        <net name="design_1_i/signal_controller_0/DINB[24]"/>
+        <net name="design_1_i/signal_controller_0/DINB[23]"/>
+        <net name="design_1_i/signal_controller_0/DINB[22]"/>
+        <net name="design_1_i/signal_controller_0/DINB[21]"/>
+        <net name="design_1_i/signal_controller_0/DINB[20]"/>
+        <net name="design_1_i/signal_controller_0/DINB[19]"/>
+        <net name="design_1_i/signal_controller_0/DINB[18]"/>
+        <net name="design_1_i/signal_controller_0/DINB[17]"/>
+        <net name="design_1_i/signal_controller_0/DINB[16]"/>
+        <net name="design_1_i/signal_controller_0/DINB[15]"/>
+        <net name="design_1_i/signal_controller_0/DINB[14]"/>
+        <net name="design_1_i/signal_controller_0/DINB[13]"/>
+        <net name="design_1_i/signal_controller_0/DINB[12]"/>
+        <net name="design_1_i/signal_controller_0/DINB[11]"/>
+        <net name="design_1_i/signal_controller_0/DINB[10]"/>
+        <net name="design_1_i/signal_controller_0/DINB[9]"/>
+        <net name="design_1_i/signal_controller_0/DINB[8]"/>
+        <net name="design_1_i/signal_controller_0/DINB[7]"/>
+        <net name="design_1_i/signal_controller_0/DINB[6]"/>
+        <net name="design_1_i/signal_controller_0/DINB[5]"/>
+        <net name="design_1_i/signal_controller_0/DINB[4]"/>
+        <net name="design_1_i/signal_controller_0/DINB[3]"/>
+        <net name="design_1_i/signal_controller_0/DINB[2]"/>
+        <net name="design_1_i/signal_controller_0/DINB[1]"/>
+        <net name="design_1_i/signal_controller_0/DINB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe4[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/DOUTB[31]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[30]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[29]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[28]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[27]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[26]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[25]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[24]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[23]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[22]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[21]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[20]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[19]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[18]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[17]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[16]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[15]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[14]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[13]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[12]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[11]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[10]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[9]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[8]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[7]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[6]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[5]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[4]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[3]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[2]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[1]"/>
+        <net name="design_1_i/signal_controller_0/DOUTB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[31]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[30]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[29]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[28]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[27]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[26]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[25]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[24]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[23]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[22]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[21]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[20]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[19]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[18]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[17]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[16]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[15]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[14]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[13]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[12]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[11]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[10]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[9]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[8]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[7]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[6]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[5]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[4]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[3]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[2]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[1]"/>
+        <net name="design_1_i/signal_controller_0/INPUT_RAM_ADDRESS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[31]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[30]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[29]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[28]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[27]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[26]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[25]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[24]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[23]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[22]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[21]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[20]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[19]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[18]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[17]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[16]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[15]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[14]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[13]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[12]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[11]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[10]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[9]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[8]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[7]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[6]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[5]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[4]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[3]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[2]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[1]"/>
+        <net name="design_1_i/signal_controller_0/OUTPUT_RAM_ADDRESS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[2:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/STATUS[2]"/>
+        <net name="design_1_i/signal_controller_0/STATUS[1]"/>
+        <net name="design_1_i/signal_controller_0/STATUS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[2:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0/WEB[2]"/>
+        <net name="design_1_i/signal_controller_0/WEB[1]"/>
+        <net name="design_1_i/signal_controller_0/WEB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_ADDRB[31]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[30]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[29]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[28]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[27]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[26]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[25]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[24]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[23]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[22]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[21]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[20]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[19]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[18]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[17]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[16]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[15]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[14]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[13]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[12]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[11]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[10]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[9]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[8]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[7]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[6]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[5]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[4]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[3]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[2]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[1]"/>
+        <net name="design_1_i/signal_controller_0_ADDRB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe4[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_CLKB"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_DINB[31]"/>
+        <net name="design_1_i/signal_controller_0_DINB[30]"/>
+        <net name="design_1_i/signal_controller_0_DINB[29]"/>
+        <net name="design_1_i/signal_controller_0_DINB[28]"/>
+        <net name="design_1_i/signal_controller_0_DINB[27]"/>
+        <net name="design_1_i/signal_controller_0_DINB[26]"/>
+        <net name="design_1_i/signal_controller_0_DINB[25]"/>
+        <net name="design_1_i/signal_controller_0_DINB[24]"/>
+        <net name="design_1_i/signal_controller_0_DINB[23]"/>
+        <net name="design_1_i/signal_controller_0_DINB[22]"/>
+        <net name="design_1_i/signal_controller_0_DINB[21]"/>
+        <net name="design_1_i/signal_controller_0_DINB[20]"/>
+        <net name="design_1_i/signal_controller_0_DINB[19]"/>
+        <net name="design_1_i/signal_controller_0_DINB[18]"/>
+        <net name="design_1_i/signal_controller_0_DINB[17]"/>
+        <net name="design_1_i/signal_controller_0_DINB[16]"/>
+        <net name="design_1_i/signal_controller_0_DINB[15]"/>
+        <net name="design_1_i/signal_controller_0_DINB[14]"/>
+        <net name="design_1_i/signal_controller_0_DINB[13]"/>
+        <net name="design_1_i/signal_controller_0_DINB[12]"/>
+        <net name="design_1_i/signal_controller_0_DINB[11]"/>
+        <net name="design_1_i/signal_controller_0_DINB[10]"/>
+        <net name="design_1_i/signal_controller_0_DINB[9]"/>
+        <net name="design_1_i/signal_controller_0_DINB[8]"/>
+        <net name="design_1_i/signal_controller_0_DINB[7]"/>
+        <net name="design_1_i/signal_controller_0_DINB[6]"/>
+        <net name="design_1_i/signal_controller_0_DINB[5]"/>
+        <net name="design_1_i/signal_controller_0_DINB[4]"/>
+        <net name="design_1_i/signal_controller_0_DINB[3]"/>
+        <net name="design_1_i/signal_controller_0_DINB[2]"/>
+        <net name="design_1_i/signal_controller_0_DINB[1]"/>
+        <net name="design_1_i/signal_controller_0_DINB[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe5[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_ENB"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe6[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_RSTB"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_STATUS2[31]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[30]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[29]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[28]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[27]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[26]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[25]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[24]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[23]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[22]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[21]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[20]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[19]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[18]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[17]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[16]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[15]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[14]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[13]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[12]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[11]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[10]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[9]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[8]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[7]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[6]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[5]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[4]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[3]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[2]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[1]"/>
+        <net name="design_1_i/signal_controller_0_STATUS2[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="OCTAL"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[3:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+        <Option Id="ENUM.iSTATE" value="eq4&apos;b0001"/>
+        <Option Id="ENUM.iSTATE0" value="eq4&apos;b1000"/>
+        <Option Id="ENUM.iSTATE1" value="eq4&apos;b0100"/>
+        <Option Id="ENUM.iSTATE2" value="eq4&apos;b0010"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_STATUS[3]"/>
+        <net name="design_1_i/signal_controller_0_STATUS[2]"/>
+        <net name="design_1_i/signal_controller_0_STATUS[1]"/>
+        <net name="design_1_i/signal_controller_0_STATUS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="neq4&apos;h0"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[3:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="neq4&apos;h0"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/signal_controller_0_WEB[3]"/>
+        <net name="design_1_i/signal_controller_0_WEB[2]"/>
+        <net name="design_1_i/signal_controller_0_WEB[1]"/>
+        <net name="design_1_i/signal_controller_0_WEB[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>
